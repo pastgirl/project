@@ -5,6 +5,7 @@ var css = require('gulp-clean-css');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var inject = require('gulp-inject');
+//注释
 
 gulp.task('html',["css","javascript"],function(){
 	gulp.src("./src/index.html")
