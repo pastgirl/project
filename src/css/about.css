@@ -1,0 +1,137 @@
+#article{
+	width: 1100px;
+	height: 780px;
+	margin:0 auto;
+	padding-top:40px;
+	box-sizing:border-box;
+}
+#art_left,#art_right{
+	float:left;
+}
+#art_left{
+	width: 228px;
+	height: 170px;
+	border:1px solid #ddd;
+	box-sizing:border-box;
+}
+#art_left h2{
+	height: 60px;
+	line-height:60px;
+	font-size:18px;
+	color:#333;
+	border-bottom:1px solid #ddd;
+	padding-left:20px;
+	box-sizing:border-box;
+	font-weight:bold;
+}
+.art_btn{
+	margin-top:10px;
+}
+.art_btn a{
+	display:inline-block;
+	width: 100%;
+	height: 45px;
+	line-height:45px;
+	color:#333;
+	font-size:12px;
+	padding-left:20px;
+	box-sizing:border-box;
+}
+.art_btn a:hover{
+	background:#efefef;
+}
+.art_btn a.active{
+	background:#efefef;
+	border-left:4px solid #e9280c;
+}
+#art_right{
+	width: 850px;
+	margin-left:20px;
+}
+.art_first_top{
+	width: 850px;
+	height: 60px;
+	line-height:60px;
+	border-bottom:1px solid #ddd;
+	box-sizing:border-box;
+	padding:0 10px;
+}
+.art_first_top h3{
+	font-size:18px;
+	color:#555;
+	font-weight:normal;
+	float:left;
+}
+.art_first_top p{
+	float:right;
+}
+.art_first_top p{
+	color:#999;
+}
+.art_first_top p a{
+	color:#999;
+	font-size:12px;
+}
+.art_first_bottom{
+	box-sizing:border-box;
+	padding:0 10px;
+}
+.art_first_bottom_p1{
+	margin-top:30px;
+	font-size:14px;
+	color:#333;
+	line-height:30px;
+	text-indent:2em;
+}
+.art_first_bottom_p2>span{
+	display:inline-block;
+	width: 557px;
+	font-size:14px;
+	color:#333;
+	line-height:30px;
+	text-indent:2em;
+}
+.art_first_bottom_p2>span,.art_first_bottom_p2>img{
+	float:left;
+}
+.art_first_bottom_p2>img{
+	display:block;
+	margin-top:-25px;
+}
+.art_first_bottom_p3{
+	font-size:14px;
+	color:#333;
+	line-height:30px;
+	text-indent:2em;
+}
+#art_right>div{
+	display:none;
+}
+#art_right>div.active{
+	display:block;
+}
+.art_second_bottom .art_ul1{
+	margin-top:38px;
+	margin-left:10px;
+}
+.art_second_bottom .art_ul1 li{
+	height: 30px;
+	line-height:30px;
+}
+.art_second_bottom .art_ul1 p{
+	color:#006400;
+	font-size:16px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+.art_second_bottom .art_ul1 li span{
+	font-size:12px;
+	color:#808080;
+}
+.art_ul_same{
+	float:left;
+	margin-right:40px;
+}
+.art_span_same{
+	font-weight:bold;
+}

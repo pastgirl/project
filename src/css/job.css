@@ -1,0 +1,148 @@
+#article{
+	width: 1100px;
+	height: 1580px;
+	margin:0 auto;
+	padding-top:40px;
+	box-sizing:border-box;
+}
+#art_left{
+	width: 228px;
+	height: 170px;
+	border:1px solid #ddd;
+	box-sizing:border-box;
+}
+#art_left h2{
+	height: 60px;
+	line-height:60px;
+	font-size:18px;
+	color:#333;
+	border-bottom:1px solid #ddd;
+	padding-left:20px;
+	box-sizing:border-box;
+	font-weight:bold;
+}
+.art_btn{
+	margin-top:10px;
+}
+.art_btn a{
+	display:inline-block;
+	width: 100%;
+	height: 45px;
+	line-height:45px;
+	color:#333;
+	font-size:12px;
+	padding-left:20px;
+	box-sizing:border-box;
+}
+.art_btn a:hover{
+	background:#efefef;
+}
+.art_btn a.active{
+	background:#efefef;
+	border-left:4px solid #e9280c;
+}
+#art_right{
+	width: 850px;
+	margin-left:20px;
+}
+#art_left,#art_right{
+	float:left;
+}
+.a_first_top{
+	width: 850px;
+	height: 60px;
+	line-height:60px;
+	border-bottom:1px solid #ddd;
+	box-sizing:border-box;
+	padding:0 10px;
+}
+.a_first_top h3{
+	font-size:18px;
+	color:#555;
+	font-weight:normal;
+	float:left;
+}
+.a_first_top p{
+	float:right;
+}
+.a_first_top p{
+	color:#999;
+}
+.a_first_top p a{
+	color:#999;
+	font-size:12px;
+}
+.a_first_middle{
+	width: 818px;
+	height: 659px;
+	border:1px solid #ddd;
+	margin-top:45px;
+}
+.a_second_middle{
+	width: 818px;
+	height: 500px;
+	border:1px solid #ddd;
+	margin-top:25px;
+}
+.a_middle1{
+	width: 808px;
+	height: 64px;
+	border-bottom:1px solid #ddd;
+	margin:0 auto;
+}
+.a_middle1{
+	padding-left:10px;
+	box-sizing:border-box;
+}
+.a_middle1 h4{
+	font-size:16px;
+	color:#333;
+	font-weight:bold;
+	margin-top:14px;
+}
+.a_middle1 p{
+	margin-top:14px;
+}
+.a_middle1 p span{
+	font-size:12px;
+	color:#999;
+	margin-right:15px;
+}
+.a_middle2{
+	width: 808px;
+	margin:0 auto;
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:30px;
+	box-sizing:border-box;
+	border-bottom:1px solid #ddd;
+}
+.a_middle2 p{
+	font-size:12px;
+	color:#333;
+	line-height:28px;
+}
+.a_middle2 h1{
+	font-size:12px;
+	line-height:28px;
+}
+.a_middle3{
+	line-height:40px;
+	padding-left:15px;
+}
+.a_middle3 p a{
+	font-size:12px;
+	color:#1c57c4;
+	margin-right:16px;
+}
+#pagination1{
+	width: 600px;
+	margin:30px auto;
+	text-align:center;
+}
+.a_first>div{
+	display:none;
+}
+.a_first>div.active{
+	display:block;
+}
